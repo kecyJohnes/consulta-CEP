@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta CEP</title>
+    <!-- Fontes do Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Animate AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS LOCAL -->
+     <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- script do AOS animate -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <h1 data-aos="fade-down" >Consulta CEP</h1>
+    <p data-aos="fade-up" data-aos-duration="2500">Digite o CEP desejado para buscar as informações do local. Evite usar traço e ponto, ou qualquer caractere especial.</p>
+
+    <div class="busca">
+        <label for="cep"></label>
+        <input type="text" class="cep-input" id="cep">
+        <button class="cep-button">Pesquisar</button>
+    </div>
+
+    <div class="resultado"></div>
+
+
+    <!-- sweetArt -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- script local -->
+     <script src="index.js"></script>
+</body>
+</html>
