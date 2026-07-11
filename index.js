@@ -26,10 +26,10 @@ cepButton.addEventListener('click', () => {
 
             divResultado.innerHTML = 
             `
-                <p data-aos="zoom-in" data-aos-duration="1000">Rua: ${data.street}</p>
-                <p data-aos="zoom-in" data-aos-duration="1400">Bairro: ${data.neighborhood}</p>
-                <p data-aos="zoom-in" data-aos-duration="1800">Cidade: ${data.city}</p>
-                <p data-aos="zoom-in" data-aos-duration="2200">Estado: ${data.state}</p>
+                <p data-aos="zoom-in" data-aos-duration="1600">Rua: ${data.street}</p>
+                <p data-aos="zoom-in" data-aos-duration="1900">Bairro: ${data.neighborhood}</p>
+                <p data-aos="zoom-in" data-aos-duration="2200">Cidade: ${data.city}</p>
+                <p data-aos="zoom-in" data-aos-duration="2500">Estado: ${data.state}</p>
             `
             
 
