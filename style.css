@@ -8,8 +8,9 @@
 
 html,body{
     background-color: #dcdde1;
-    background-image:url(b.png);
-    background-repeat: no-repeat; 
+    /* background-image:url(b.png);
+    background-repeat: no-repeat;
+    background-size: cover;  */
 }
 
 h1{
@@ -67,3 +68,7 @@ p{
 .resultado p{
     font-size: 20px;
 }
+
+/* div label {
+    color: #ffff;
+} */
