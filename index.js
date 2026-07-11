@@ -24,6 +24,15 @@ cepButton.addEventListener('click', () => {
             const data = await res.json()
             Swal.close()
 
+            divResultado.innerHTML = 
+            `
+                <p data-aos="zoom-in" data-aos-duration="1000">Rua: ${data.street}</p>
+                <p data-aos="zoom-in" data-aos-duration="1400">Bairro: ${data.neighborhood}</p>
+                <p data-aos="zoom-in" data-aos-duration="1800">Cidade: ${data.city}</p>
+                <p data-aos="zoom-in" data-aos-duration="2200">Estado: ${data.state}</p>
+            `
+            
+
             console.log(data)
         } catch (err) {
             Swal.fire('Erro', err.message, 'error')

@@ -3,10 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
-}
+    }
+
 
 html,body{
     background-color: #dcdde1;
+    background-image:url(b.png);
+    background-repeat: no-repeat; 
 }
 
 h1{
@@ -19,3 +22,48 @@ p{
     text-align: center;
 }
 
+.busca{
+    margin: 40px auto;
+    max-width: 960px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 40px;
+    /* display */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.busca input{
+    margin-block: 8px;
+    border: none;
+    background-color: #dcdee1;
+    border-bottom: 1px solid #999;
+    font-size: 16px;
+    outline: transparent;
+    text-align: center;
+}
+
+.busca button {
+    border: none;
+    background-color: rgb(109, 179, 6);
+    width: 160px;
+    padding-block: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #ffff;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+
+.busca button:hover {
+    background-color: rgb(79, 131, 0);
+    transform: scale(1.1);
+    box-shadow: 4px 4px 8px #999; 
+}
+
+.resultado p{
+    font-size: 20px;
+}
